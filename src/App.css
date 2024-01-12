@@ -22,8 +22,13 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
+  text-align: center;
   gap: 10px;
 }
+.profile img {
+  justify-self: center;
+}
+
 .profile span {
   text-align: center;
   font-size: 20px;
