@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(80deg, #f081a4 12.82%, #ff306e 91.48%);
+  height: 100vh;
+}
+.container {
+  padding: 50px 10px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 707px;
+  margin: 0 auto;
+}
+
+.profile {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.profile span {
+  text-align: center;
+  font-size: 20px;
+  color: #4b2432;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.button a {
+  padding: 15px 144px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  border: 1px solid #d72643;
+  background: #fff4f8;
+  color: #4b2432;
+   box-shadow: -3px 4px 17.7px 0px rgba(107, 8, 47, 0.2);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+.icon {
+display: flex;
+justify-content: center;
+gap: 27px;
+margin-top: 40px;
+}
